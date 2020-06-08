@@ -1,0 +1,105 @@
+html {
+	box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+.background-grey{
+	color: #000;
+	background-color: #f1f1f1;
+}
+
+.content{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+}
+
+.row-padding{
+	padding: 0 8px;
+}
+
+.left-contain{
+	background-color: #fff;
+	width: 33.3333%;
+	color: #000000;
+	float: left;
+}
+
+.right-contain{
+	width: 66.6666%;
+	color: #000000;
+	float: left;
+	padding: 0 16px;
+	margin-bottom: 16px ;
+}
+
+.icon-margin{
+	margin-right: 16px;
+}
+
+.icon-color{
+	color: #009688;
+}
+
+.font-large{
+	font-size: 18px !important;
+}
+
+.container{
+	clear: both;
+	padding: 0.01em 16px
+}
+
+.font-bottom{
+	position: absolute;
+	left: 0;
+	bottom: 0
+}
+
+.font-black{
+	color: #000000;
+}
+
+.left-card{
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+
+.right-card{
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	background-color: white;
+}
+
+
+.font-grey{
+	color: #757575;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible
+}
+
+.font-opacity{
+	opacity: 0.6;
+}
+
+.title-padding{
+	padding: 12px 0;
+}
